@@ -3,10 +3,28 @@
     border-radius: 4px;
 
 }
-    
-.Header img{
-    width:100%;
+
+.container{
+    position: relative;
+    width: 100%;
+    height: 1000px;
+
 }
+
+.container img{
+    position: absolute;
+    width: 100%;
+    height: 1000px;
+    object-fit: cover;
+    transition: 0.5;
+}
+
+.container #img2:hover{
+    opacity: 0;
+    cursor: pointer;
+
+}
+
 
 
 h1{
