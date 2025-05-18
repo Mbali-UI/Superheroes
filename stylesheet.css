@@ -1,0 +1,69 @@
+.gallery img{
+    width: 100%;
+    border-radius: 4px;
+
+}
+    
+.Header img{
+    width:100%;
+}
+
+/* Header Image Rollover Effect */
+.Header-image {
+    width: 100%; 
+    height: 800px; 
+    background-image: url('Images/Header 1.png');
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.3s ease;
+}
+
+.Header-image:hover {
+    background-image: url('Images/Header 2.png');
+}
+
+h1{
+    color:black;
+    font-family: helvetica , sans-serif;
+}
+h2{
+    color: black;
+    font-family: helvetica , sans-serif;
+}
+h3{
+    color: black;
+    font-family: helvetica , sans-serif;
+}
+p{
+    color: black;
+    font-family: 'Courier New', Courier, monospace , sans-serif;
+}
+
+#menu{
+    width: 100;
+    height: 40px;
+    color: white;
+    background-color: black;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: center;
+    
+}
+
+#menu a{
+    color: white;
+    font-family: helvetica;
+    font-size: 16px;
+    font-weight: normal;
+    text-decoration: none;
+
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+#menu a:hover{
+    
+    color: #0377F2;
+    font-weight: bold;
+}
